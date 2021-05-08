@@ -4,66 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abhisek's Component Library</title>
+    <title>Home | Abhisek Gupta</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Abhisek's Component Library</h1>
-    <p>
-      This is a component library that is going to assist in building Abhisek's
-      portfolio that will be submitted as an assignment for Level Zero of
-      neog.camp.
-    </p>
-    <p>
-      This Component libraray will help to make the website look consistent and
-      provide references for different sections of the portfolio.
-    </p>
-    <hr />
-    <h2>@Typography</h2>
-    <h1>This is the biggest Header</h1>
-    <h2>This is the second biggest header</h2>
-    <p>
-      This is a regular size text and behaves like a paragraph in real life.
-    </p>
-    <strong>This will be bold</strong>
-    <small>This is comparatively smaller text</small>
-    <hr />
-    <h2>@Containers</h2>
-    <div class="container container-fluid">
-      This will be a fluid container, it with stretch across end to end of the
-      screen from left to right.
-    </div>
-    <div class="container container-center">
-      This will be a centered container, meaning it will be centered with equal
-      specified spaces on both side
-    </div>
-    <hr />
-    <h2>@Links</h2>
-    <a href="#" class="link link-primary">Primary Link</a>
-    <a href="#" class="link link-secondary">Secondary Link</a>
-    <hr />
-    <h2>@List</h2>
-    <h4>an unordered list</h4>
-    <p>This list will not have bullets</p>
-    <ul class="list-non-bullet">
-      <li>List item</li>
-      <li>List item</li>
-      <li>List item</li>
-    </ul>
-    <h4>an unordered inline list</h4>
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">an inline list</li>
-      <li class="list-item-inline">an inline list</li>
-      <li class="list-item-inline">an inline list</li>
-    </ul>
-    <h4>a reverse ordered list</h4>
-    <ol reversed>
-      <li>Tea</li>
-      <li>Coffee</li>
-      <li>Shake</li>
-    </ol>
-    <hr />
-    <h2>@Nav</h2>
+    <!--Navbar-->
     <nav class="navigation container">
       <div class="nav-brand">DEV ABHI</div>
       <ul class="nav-pills">
@@ -74,39 +19,72 @@
           <a href="" class="link">Projects</a>
         </li>
         <li class="list-item-inline">
+          <a href="" class="link">Blogs</a>
+        </li>
+        <li class="list-item-inline">
           <a href="" class="link">About</a>
         </li>
       </ul>
     </nav>
-    <hr />
-    <h2>@Header</h2>
+    <!--End of Navbar-->
+    <!--Header-->
     <header class="hero">
       <img class="hero-img" src="images/hero.svg" alt="" />
-      <h1 class="hero-heading">This is hero heading</h1>
+      <h1 class="hero-heading">
+        Abhisek Gupta, the <span>Web Developer</span>
+      </h1>
     </header>
-    <hr />
-    <h2>@Section</h2>
-    <section class="section container container-center">
-      <h1>Normal Section, with white background</h1>
-      <p>This has white background</p>
+    <!--End of Header-->
+    <!--section-->
+    <section class="section container section-off-white">
+      <h1>TECHNOLOGIES</h1>
+      <p>
+        HTML5 &nbsp; CSS3 &nbsp; Git &nbsp; Javascript &nbsp; ReactJS &nbsp;
+        NodeJS &nbsp; Web Hosting
+      </p>
     </section>
-    <section class="section section-off-white container container-center">
-      <h1>Section, with grey background</h1>
-      <p>This has grey background</p>
+    <section class="section container">
+      <h1>PROJECTS</h1>
+      <p>
+        I like to show my works and thus you can see my projects hosted online.
+      </p>
+      <a href="projects.html" class="link link-primary" target="_blank"
+        >Browse Projects</a
+      >
     </section>
-    <hr />
-    <h2>@Footer</h2>
+    <section class="section container section-off-white">
+      <h1>BLOGS</h1>
+      <p>Here are some of the Blogs I have written, have a look at them.</p>
+      <a href="projects.html" class="link link-secondary" target="_blank"
+        >Browse Blogs</a
+      >
+    </section>
+    <!--Footer-->
     <footer class="footer">
-      <div class="footer-header">A random copyright message</div>
+      <div class="footer-header">
+        All rights reserved. Copyright &copy; 2021 | Abhisek Gupta
+      </div>
       <ul class="list-non-bullet">
         <li class="list-item-inline">
-          <a href="" class="link">Social link 1 </a>
+          <a
+            href="https://github.com/abhisekgupta001"
+            class="link"
+            target="_blank"
+            >Github</a
+          >
         </li>
         <li class="list-item-inline">
-          <a href="" class="link">Social link 2 </a>
+          <a href="https://twitter.com/dev_abhi_js" class="link" target="_blank"
+            >Twitter</a
+          >
         </li>
         <li class="list-item-inline">
-          <a href="" class="link">Social link 3</a>
+          <a
+            href="https://www.linkedin.com/in/abhisek-gupta-7204101b2/"
+            class="link"
+            target="_blank"
+            >Linkedin</a
+          >
         </li>
       </ul>
     </footer>
