@@ -104,6 +104,7 @@ h2 {
   background-color: var(--primary-color);
   padding: 0.8rem 2rem;
   border-bottom-left-radius: 5rem;
+  width: 100%;
 }
 .nav-brand {
   color: var(--off-white);
@@ -222,4 +223,78 @@ form h1 {
   color: var(--primary-color);
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    overflow: hidden;
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: fixed;
+  }
+  .nav-brand {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .navigation .nav-pills {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .navigation .link {
+    padding: 0 0.2rem;
+  }
+  .hero .hero-img {
+    width: 300px;
+    max-width: 400px;
+    height: 340px;
+    display: block;
+    margin: 0 auto;
+  }
+  .hero .hero-heading {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  .section input[type="text"],
+  .section input[type="email"],
+  .section textarea {
+    width: 80%;
+  }
+  .footer {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .navigation {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  .nav-brand {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .navigation .nav-pills {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .navigation .link {
+    padding: 0 0.2rem;
+  }
+  .section input[type="text"],
+  .section input[type="email"],
+  .section textarea {
+    width: 80%;
+  }
+  .footer {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
 }
