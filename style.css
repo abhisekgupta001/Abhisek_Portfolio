@@ -48,6 +48,7 @@ h2 {
   background-color: var(--primary-color);
   color: #ffffff;
   border-radius: 0.4rem;
+  border: 2px solid var(--primary-color);
 }
 .link-primary:hover {
   color: var(--primary-color);
@@ -105,7 +106,7 @@ h2 {
 }
 
 .navigation a:hover {
-  color: #ff8474;
+  color: var(--off-white);
 }
 
 /* header */
@@ -150,9 +151,7 @@ h2 {
 .footer ul {
   margin: 0.5rem 1rem;
 }
-.footer li a {
-  color: #ffffff;
-}
-.footer li a:hover {
-  color: var(--light-color);
+
+.footer li .social:hover {
+  filter: opacity(0.5);
 }
