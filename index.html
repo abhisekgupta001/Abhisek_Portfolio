@@ -29,10 +29,20 @@
     <!--End of Navbar-->
     <!--Header-->
     <header class="hero">
-      <img class="hero-img" src="images/hero.svg" alt="" />
-      <h1 class="hero-heading">
-        Abhisek Gupta | the <span>Web Developer</span>
-      </h1>
+      <div class="top-content">
+       <div class="hero-info">
+      <h2 class="hero-greet">Hi, I'm</h2> 
+      <h1 class="hero-name">Abhisek Gupta</h1>
+      <h2 class="hero-sub-heading">Desginer_Developer</h2>
+      <div class="cta">
+        <a href="#contact" class="link link-primary" >Hire Me</a>
+        <a href="/blogs/Abhisek_Gupta_resume.pdf" class="link link-secondary" download="Abhisek_Gupta_resume.pdf" target="_blank"
+        >Resume</a>
+      </div>  
+  
+      </div>
+      <img  id="main-image" src="images/hero-image.svg" alt="" />
+    </div>
     </header>
     <!--End of Header-->
     <!--section-->
@@ -69,7 +79,7 @@
       >
     </section>
     <!--Contact me section-->
-    <section class="section conatiner">
+    <section class="section conatiner" id="contact">
       <form name="contact" method="POST" data-netlify="true">
         <h1>Contact Me</h2>
         <div><input type="text" name="name" placeholder="Name" /><br /></div>
