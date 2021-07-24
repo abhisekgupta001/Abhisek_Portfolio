@@ -262,6 +262,9 @@ form h1 {
     gap: 0.2rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    position: fixed;
+    left: 0;
+    top: 0;
   }
   .nav-brand {
     text-align: center;
@@ -285,6 +288,9 @@ form h1 {
     align-items: center;
   }
 
+  .hero {
+    padding-top: 7rem;
+  }
   .hero .hero-img {
     width: 300px;
     max-width: 400px;
@@ -306,28 +312,3 @@ form h1 {
     border-top-left-radius: 2rem;
   }
 }
-
-/* @media only screen and (max-width: 1080px) {
-  .nav-brand {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-  }
-  .navigation .nav-pills {
-    display: inline-block;
-    margin: 0 auto;
-  }
-
-  .navigation .link {
-    padding: 0 0.2rem;
-  }
-  .section input[type="text"],
-  .section input[type="email"],
-  .section textarea {
-    width: 80%;
-  }
-  .footer {
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-  }
-} */
