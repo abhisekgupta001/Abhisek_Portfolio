@@ -172,6 +172,7 @@ h2 {
 .hero {
   padding: 3rem 0;
   text-align: center;
+  border-bottom: 1px solid hsla(271, 83%, 23%, 0.1);
 }
 .hero .hero-img {
   max-width: 600px;
